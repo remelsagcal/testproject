@@ -1,0 +1,17 @@
+.section3 {
+  display: flex;
+  float: right;
+}
+
+.section3-image {
+  width: 40%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.section3-article {
+  display: grid;
+  width: 100%;
+  margin-top: 10px;
+}
