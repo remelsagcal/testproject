@@ -1,4 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
 .section4 {
+  height: 70vh;
+  width: 30%;
   display: flex;
-  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px solid rgba(175, 175, 175);
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+.submit-button {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  border-radius: 8px;
+  color: rgb(74, 74, 248);
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: .3s ease background-color;
+}
+
+.submit-button:hover {
+  background-color: rgb(151, 202, 247);
+  color: rgb(54, 57, 247);
+
 }
